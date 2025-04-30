@@ -172,8 +172,8 @@ function Navigation() {
 
           {/* Desktop navigation */}
           <div className="desktop-menu">
-            <a href="#" className="nav-link">Home</a>
-            <a href="#" className="nav-link">Contact</a>
+            <a href="https://jomarifrancisco.netlify.app/" className="nav-link">Home</a>
+            
           </div>
 
           {/* Mobile menu button */}
@@ -187,11 +187,8 @@ function Navigation() {
         {/* Mobile menu */}
         {isMenuOpen && (
           <div className="mobile-menu">
-            <a href="#" className="mobile-nav-link">Home</a>
-            <a href="#" className="mobile-nav-link">About</a>
-            <a href="#" className="mobile-nav-link">Gallery</a>
-            <a href="#" className="mobile-nav-link">Events</a>
-            <a href="#" className="mobile-nav-link">Contact</a>
+            <a href="https://jomarifrancisco.netlify.app/" className="mobile-nav-link">Home</a>
+            
           </div>
         )}
       </div>
@@ -296,10 +293,10 @@ function Footer() {
           <div className="footer-section">
             <h3 className="footer-heading">Connect With Me</h3>
             <div className="social-links">
-              <a href="#" className="social-link">
+              <a href="https://www.facebook.com/francisco.jz/" className="social-link">
                 <FacebookIcon className="social-icon" />
               </a>
-              <a href="#" className="social-link">
+              <a href="#https://instagram.com/frncsc.jz" className="social-link">
                 <InstagramIcon className="social-icon" />
               </a>
               
